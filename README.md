@@ -1,4 +1,7 @@
-# aprendendo-python
+# Aprendendo Python
 
-Onde os meus estudo serão aplicados. Todas as formas aqui aplicadas serão retiradas de conhecimentos adquiridos.
-Caso tenha uma solução melhor do que a que tenha, dicas ou qualquer coisa que possa me ajudar e ajudar aqueles que estão aprendendo, esteja avontade.
+Codigos que tenho aprendido com ebooks, blogs, videos e etc.
+
+links: 
+* Automate the Boring Stuff with Python
+https://automatetheboringstuff.com/
