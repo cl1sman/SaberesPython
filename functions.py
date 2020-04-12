@@ -3,8 +3,8 @@
 
 # ||    Posso fazer uma função sem passar argumentos, tendo uma função fechada
 
-def mult_two_add_three(): # aqui, a função não tem argumentos, parametros. Então nela a variavel será number = 5 apenas. Assim, tenho uma função fechada
-    number = 5
+def mult_two_add_three(): # aqui, a função não tem argumentos, parametros. Então nela a variavel será number = 5 apenas. Assim,
+    number = 5            # tenho uma função fechada
     print(number*2 + 3)
 
 
