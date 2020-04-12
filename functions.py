@@ -27,7 +27,32 @@ def mult(number):
 
 x = int(input('Informe o valor: '))
 mult(x)
+#____________________________________________________________________________________________________________________________________#
 
+#   Exemplo:
+def mult_x_add_y(number, x, y):
+    print(number*x + y)
+
+mult_x_add_y(5, 2, 3)
+
+#   Exemplo:
+def greet_customer(grocery_store, special_item):
+    print('Welcome to ' + grocery_store + '.')
+    print('Our special is ' + special_item + '.')
+    print('Have fun shopping')
+
+greet_customer('Naruto doces', 'Hakuna Matata')
+
+#_____________________________________________________________________________________________________________________________________#
+
+Exemplo:
+def calculate_age(current_year, birth_year):
+    age = current_year - birth_year
+    return age
+
+my_age = calculate_age(2020, 1993)
+
+print(my_age)
 
 #######################################
 
