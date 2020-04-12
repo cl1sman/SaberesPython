@@ -12,10 +12,11 @@ def mult_two_add_three(): # aqui, a função não tem argumentos, parametros. En
 mult_two_add_three() # a função é chamada, porem sem parametros
 
 
-# ||    Para tornar a função mais útil, posso passar argumentos, parametros para este função. Assim, ao invés de ter uma variavel com um valor fixo, posso passar valor a esta função
+# ||    Para tornar a função mais útil, posso passar argumentos, parametros para este função. Assim, ao invés de ter uma variavel
+#       com um valor fixo, posso passar valor a esta função
 
-def mult_two_add_three(number): # na função, passei como parametro a variavel number. Assim, quando chamar a função, passarei o valor que quero que number assuma
-    print(number*2 + 3)
+def mult_two_add_three(number): # na função, passei como parametro a variavel number. Assim, quando chamar a função, passarei o 
+    print(number*2 + 3)         # valor que quero que number assuma
 
 mult_two_add_three(1) # neste caso, o para o parametro/argumento da função, estou passando o valor 1. Assim, nummber assumira o valor 1
 
@@ -28,7 +29,9 @@ x = int(input('Informe o valor: '))
 mult(x)
 
 
-                                                               #######################################
+#######################################
+
+
 def get_initial(name):
     initial = name[0:1]
     return initial
