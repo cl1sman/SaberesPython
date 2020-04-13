@@ -108,6 +108,23 @@ def quantos_anos_tenho(ano_que_nasceu):
 ano_informado = int(input('Informe o ano em que nasceu: '))
 
 print('Você tem ' + str(quantos_anos_tenho(ano_informado)) + ' anos de idade')
+
+#_____________________________________________________________________________________________________________________________________#
+# Exemplo com argumento padrão
+
+def repeat_stuff(stuff, num_repeats = 10):
+  return(stuff*num_repeats)
+
+lyrics = repeat_stuff('Row ', 3) + 'Your Boat. '
+song = repeat_stuff(lyrics) # o argumento será lyrics, porque num_repeats esta default = 10, então stuff recebe lyrics
+print(song)                 # e o num_repeats = 10. E necessario ser nesta sequencia, se stuff tivesse um valor default
+                            # seria problema, porque os parametros são passados na sequencia. Assim, se tivesse stuff 
+                            # um parametro padrão daria erro, pois o segundo num_repeats não teria um valor atribuido
+                            # SyntaxError: non-default argument follows default argument
+                            # Para que não ocorra este erro, devo deixar padrão um valor, contanto que ao informar o
+                            # outro, este seja passado na sequencia certa.
+                            # No caso aqui, ao deixar o segundo parametro padrão, ao ser chamado a segunda vez, terá
+                            # 10 atribuido como padrão, faltando somente o primeiro argumento.
 #_____________________________________________________________________________________________________________________________________#
 
 
