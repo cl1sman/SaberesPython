@@ -78,7 +78,25 @@ print(y_squared)
     Então, a função recebe dois valores em sequencia, rertona os resultados na mesma sequencia.
     Então x_squared, y_squared recebe seus respectivos valores.
 """
+#_____________________________________________________________________________________________________________________________________#
+"""
+    Posso passar o valor de uma variavel para a função.
+    Mas não posso tentar usar uma variavel de dentro de uma função fora dela _>
 
+    def create_special_string(special_item):
+        return 'Our special is ' + special_item + '.'
+    
+    print('I dont like ' + special_item)
+
+    special_item, nesta situação não pode ser usado desta forma, ocassionara em um erro NameError
+    
+"""
+header_string = 'Our special is '
+
+def create_special_string(special_item):
+    return header_string + special_item + '.'
+
+print(create_special_string('grapes'))
 #_____________________________________________________________________________________________________________________________________#
 
 
