@@ -54,7 +54,32 @@ my_age = calculate_age(2020, 1993)
 
 print(my_age)
 
-#######################################
+#_____________________________________________________________________________________________________________________________________#
+
+def square_point(x_value, y_value):
+    x_2 = x_value * x_value
+    y_2 = y_value * y_value
+    return x_2, y_2
+    
+x_squared, y_squared = square_point(1, 3)
+print(x_squared)
+print(y_squared)
+
+"""
+    x_quared, y_quared = square_point(1, 3)
+
+    a função square_point é chamada, com os valores 1 e 3. Assim, a função faz o que tem que fazer
+    e retorna dois valores. Estes valores voltam na mesma sequencia. Ou seja, o primeiro resultado
+    volta na posição 0, e o segundo na 1.
+
+    Assim, x_squared que esta na primeira posição (posição 0), recebe o primeiro valor, e o segun-
+    do que se encontra na posição 1 recebe o segundo valor.
+
+    Então, a função recebe dois valores em sequencia, rertona os resultados na mesma sequencia.
+    Então x_squared, y_squared recebe seus respectivos valores.
+"""
+
+#_____________________________________________________________________________________________________________________________________#
 
 
 def get_initial(name):
