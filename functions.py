@@ -45,7 +45,7 @@ greet_customer('Naruto doces', 'Hakuna Matata')
 
 #_____________________________________________________________________________________________________________________________________#
 
-Exemplo:
+#   Exemplo:
 def calculate_age(current_year, birth_year):
     age = current_year - birth_year
     return age
