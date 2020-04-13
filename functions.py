@@ -97,6 +97,17 @@ def create_special_string(special_item):
     return header_string + special_item + '.'
 
 print(create_special_string('grapes'))
+
+#_____________________________________________________________________________________________________________________________________#
+ano_atual = int(input('Informe o ano atual: '))
+
+def quantos_anos_tenho(ano_que_nasceu):
+    idade = ano_atual - ano_que_nasceu
+    return idade
+
+ano_informado = int(input('Informe o ano em que nasceu: '))
+
+print('Você tem ' + str(quantos_anos_tenho(ano_informado)) + ' anos de idade')
 #_____________________________________________________________________________________________________________________________________#
 
 
