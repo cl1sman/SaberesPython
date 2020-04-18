@@ -9,3 +9,6 @@ Ebook:
 
 Playlist:
 * Python for Beginners: https://www.youtube.com/watch?v=jFCNu1-Xdsw&list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6
+
+Course:
+* CS: https://www.codecademy.com/learn/paths/computer-science
