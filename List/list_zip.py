@@ -8,7 +8,7 @@ print(names_and_ages)
 
 list_names_add_ages = list(names_and_ages)
 print(list_names_add_ages)
-print(list_names_add_ages[0])
+print(list_names_add_ages[0]) # ao imprimir a posição 0 (zero) desta lista, encontraremos juntos ['Carlos', 21]
 
 """
     names e ages serão unidos. como a primeira lista é names, na posição zero terei
