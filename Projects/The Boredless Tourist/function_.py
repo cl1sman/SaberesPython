@@ -1,3 +1,9 @@
+# Lists
+destinations = ['Paris, France', 'Shanghai, China', 'Los Angeles, USA', 'São Paulo, Brazil', 'Cairo, Egypt']
+test_traveler = ['Erin Wikes', 'Shanghai, China', ['historical site', 'art']]
+
+attractions = [[], [], [], [], []]
+
 # Functions
 def get_destination_index(destination):
   destination_index = destinations.index(destination)
