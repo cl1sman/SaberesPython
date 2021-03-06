@@ -1,0 +1,1 @@
+print('Minha casa tem goteira\npinga ne mim')
