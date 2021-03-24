@@ -1,26 +1,16 @@
-principal = int(input('Enter the loan principal: '))
-option_for_calc = input(r"""What do you want to calculate?
-type \"m\" for number of monthly payments,
-type \"p\" for the monthly payment: """)
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-if option_for_calc == 'm':
-   payment_monthly = int(input('Enter the monthly payment: '))
-   if principal % payment_monthly == 0:
-      periods = principal // payment_monthly
-      if periods == 1:
-         print('It will take {} month to repay the loan'.format(periods))
-      else:
-         print('It will take {} months to repay the loan'.format(periods))
-   else:
-      periods = (principal // payment_monthly) + 1
-      print('It will take {} months to repay the loan'.format(periods))
 
-if option_for_calc == 'p':
-   periods = int(input('Enter the number of months: '))
-   payment = int(principal / periods)
-   if principal % periods == 0:
-      print('Your monthly payment = {}'.format(str(payment)))
-   else:
-      monthly_payment = principal - (periods - 1) * payment
-      lastpayment = principal - (monthly_payment * (periods - 1))
-      print('Your monthly payment = {} and the last payment = {}'.format(monthly_payment, lastpayment))
+x = 1
+
+while x != 2:
+   h = float(input('qual sua altura?: '))
+
+   p1 = (72.7 * h) - 58
+   p2 = (62.1 * h) - 44.7
+
+   print('peso recomendado se for homem:', p1)
+   print('peso recomendado se for mulher:', p2)
+
+   x = int(input('Deseja continuar: 1 - Sim 2 - Não: '))
