@@ -1,16 +1,12 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Read three values (variables A, B and C), which are the three student's grades. Then, calculate the average, considering that grade A has weight 2, grade B has weight 3 and the grade C has weight 5. Consider that each grade can go from 0 to 10.0, always with one decimal place.
+"""
 
+A = float(input())
+B = float(input())
+C = float(input())
 
-x = 1
+MEDIA = (A * 2 + B * 3 + C * 5) / ( 2+ 3 + 5)
 
-while x != 2:
-   h = float(input('qual sua altura?: '))
-
-   p1 = (72.7 * h) - 58
-   p2 = (62.1 * h) - 44.7
-
-   print('peso recomendado se for homem:', p1)
-   print('peso recomendado se for mulher:', p2)
-
-   x = int(input('Deseja continuar: 1 - Sim 2 - Não: '))
+print('MEDIA = {:.1f}'.format(MEDIA))

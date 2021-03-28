@@ -7,7 +7,7 @@ como resultado a soma desses três números e também a
 multiplicação desses três números. Faça a simulação passo a
 passo da execução do programa.
 """
-
+# simular execução passo a passo
 numero1 = int(input('Informe a 1° número: '))
 numero2 = int(input('Informe o 2º número: '))
 numero3 = int(input('Informe o 3º número: '))
