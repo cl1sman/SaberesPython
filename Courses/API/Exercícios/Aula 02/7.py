@@ -54,3 +54,5 @@ elif x < y:
     print('segunda condição; terceiro item')
     x, y, z = z, x, y
     print(x, y, z)
+
+exit(0)
