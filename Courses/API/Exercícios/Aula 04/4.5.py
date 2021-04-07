@@ -10,7 +10,7 @@ maior que cadeia2 . Seu programa deve ignorar a caixa das
 letras, ou seja, as cadeias teste e Teste devem ser
 consideradas iguais por exemplo.
 """
-cadeia1 = input().lower()
+cadeia1 = input().lower() # se não precisar das cadeias originais
 cadeia2 = input().lower()
 
 if cadeia1 < cadeia2:
@@ -23,3 +23,17 @@ else:
     print(1)
 
 exit(0)
+
+# outra forma
+
+"""
+cadeia1 = input() # caso precise das cadeias originais
+cadeia2 = input()
+
+if cadeia.lower() < cadeia2.lower()
+    print(-1)
+elif cadeia1.lower() > cadeia2.lower():
+    print(1)
+else:
+    print(0)
+"""
