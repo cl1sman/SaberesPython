@@ -12,3 +12,8 @@ Playlist:
 
 Course:
 * CS: https://www.codecademy.com/learn/paths/computer-science
+* CS: https://www.coursera.org/learn/ciencia-computacao-python-conceitos
+
+Homework:
+* https://www.urionlinejudge.com.br/
+* https://www.hackerrank.com/
