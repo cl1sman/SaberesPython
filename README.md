@@ -18,3 +18,7 @@ Homework:
 * https://www.urionlinejudge.com.br/
 * https://www.hackerrank.com/
 * https://code.golf/
+
+Tool's:
+* VS CODE
+* https://replit.com/
