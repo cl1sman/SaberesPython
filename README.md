@@ -20,5 +20,5 @@ Homework:
 * https://code.golf/
 
 Tool's:
-* VS CODE
+* # VS CODE [a link] https://code.visualstudio.com/
 * https://replit.com/
