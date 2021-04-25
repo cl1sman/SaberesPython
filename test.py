@@ -1,13 +1,25 @@
-# !/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""
+    The included code stub will read an integer,n , from STDIN.
+    Without using any string methods, try to print the following:
+    
+    123 ... n
 
-age = int(input('Idade em dias: '))
-anos = int(age / 365) # ou age // 365
-meses = int((age % 365) / 30) # vai pegar age, dividir por 365 e retornar o resto da divisão, o resto da divisão será dividido por 30
-dias = int((age % 365) % 30) # int, vai dispensar a parte quebrada, levando em consideração apenas a parte inteira.
+    Note that "..." represents the consecutive values in between.
 
-print(f'{anos} ano(s)')
-print(f'{meses} mes(es)')
-print(f'{dias} dia(s)')
 
-exit(0)
+    Example
+    n = 5
+    Print the string 12345
+"""
+
+if __name__ == '__main__':
+    n = int(input())
+    vetor = []
+    for i in range(n):
+        vetor.append(i+1)
+
+    str1 = ''
+
+    for element in vetor:
+        str1 += str(element)
+print(str1)
