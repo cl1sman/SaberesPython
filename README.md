@@ -1,5 +1,5 @@
-# ![image](https://user-images.githubusercontent.com/34177582/115983054-f4f9e180-a56c-11eb-8fd5-2ea88b962217.png)
-Aprendendo Python
+![image](https://user-images.githubusercontent.com/34177582/115983054-f4f9e180-a56c-11eb-8fd5-2ea88b962217.png)
+# Aprendendo Python
 
 Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 
