@@ -11,14 +11,14 @@ Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 📺 [Python for Beginners](https://www.youtube.com/watch?v=jFCNu1-Xdsw&list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6)
 
 ### Course:
-🎓 CS: https://www.codecademy.com/learn/paths/computer-science
-🎓 CS: https://www.coursera.org/learn/ciencia-computacao-python-conceitos
+1. 🎓 CS: https://www.codecademy.com/learn/paths/computer-science
+2. 🎓 CS: https://www.coursera.org/learn/ciencia-computacao-python-conceitos
 
 ### Homework:
-✏ [URI](https://www.urionlinejudge.com.br/)
-✏ [HackerRank](https://www.hackerrank.com/)
-✏ [code golf](https://code.golf/)
+1. ✏ [URI](https://www.urionlinejudge.com.br/)
+2. ✏ [HackerRank](https://www.hackerrank.com/)
+3. ✏ [code golf](https://code.golf/)
 
 ### Tool's:
-🔨 [VS CODE](https://code.visualstudio.com)
-🔨 [Replit](https://replit.com/)
+1. 🔨 [VS CODE](https://code.visualstudio.com)
+2. 🔨 [Replit](https://replit.com/)
