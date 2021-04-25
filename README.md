@@ -20,6 +20,5 @@ Homework:
 * https://code.golf/
 
 Tool's:
-* [vscode] (https://code.visualstudio.com/)
+* [VS CODE](https://code.visualstudio.com)
 * https://replit.com/
-[I'm an inline-style link](https://www.google.com)
