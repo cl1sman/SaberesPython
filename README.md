@@ -22,3 +22,7 @@ Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 ### 🔨 Tool's:
 1. [VS CODE](https://code.visualstudio.com)
 2. [Replit](https://replit.com/)
+
+
+### 🤖 websites:
+1. [GeeksforGeeks](https://www.geeksforgeeks.org/python-programming-language/?ref=grb)
