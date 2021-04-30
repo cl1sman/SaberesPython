@@ -1,4 +1,4 @@
-# 🚀 Aprendendo Python 🐍
+# 🚀 Aprendendo Python
 
 Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 
