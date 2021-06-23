@@ -1,6 +1,24 @@
 # [x] quadra
 # [] Full House
 # [] converter em valores J, Q, K, A
+# [] problema com 10
+
+"""
+para o problema do 10, porque ele vai pegar o primeiro item
+v[-1]
+if v[0]  == "1":
+  valor_carta = int(10)
+
+elif v[0] == "J":
+     valor_carta = int(10)
+..........
+
+elif v[0] == "A":
+     valor_carta = int(14)
+
+else:
+    valor_carta = int(v[0])
+"""
 
 # FUNÇÕES
 def quadra(cartas):
@@ -28,7 +46,15 @@ def quadra(cartas):
         return False
 
 def full_house(cartas):
-    pass
+    # '2P', '2E', '2P', '5E', '5F'
+    # caso os três primeiros sejam iguais
+    if cartas[0][0] == cartas[1][0] == cartas[2][0] and cartas[3][0] == cartas[4][0]:
+        return True
+            
+    # '5O', '2P', '2E', '2P', '2E'
+    # caso os três ultimos forem iguais
+    elif cartas[0][0] == cartas[1][0] and cartas[2][0] == cartas[3][0] == cartas[4][0]:
+        return True
 
 k = int(input()) # quantidade de casos de teste
 
@@ -40,3 +66,5 @@ for i in range(k):
 # teste se quadra:
 if quadra(jogador1):
     print('JOGADOR 1 TEM UMA QUADRA')
+if full_house(jogador1):
+    print('JOGADOR 1 TEM UM FULL HOUSE')
