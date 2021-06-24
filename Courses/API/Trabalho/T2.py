@@ -1,29 +1,31 @@
-# [x] quadra
-# [x] Full House
-# [x] converter em valores J, Q, K, A
-# [x] problema com 10 para sequencia
-# [x] trinca
-# [x] trinca: valor que deu pau no excel: '2C', '2E', '3E', '3P', '4O'
-# [x] 2 pares
-# [x] par
-# [] carta de maior valor
-
-"""
-para o problema do 10, porque ele vai pegar o primeiro item
-v[-1]
-if v[0]  == "1":
-  valor_carta = int(10)
-
-elif v[0] == "J":
-     valor_carta = int(10)
-..........
-
-elif v[0] == "A":
-     valor_carta = int(14)
-
-else:
-    valor_carta = int(v[0])
-"""
+####################################################
+# input:                                           #
+#                                                  #
+#   5E 7O 8O JO AC                                 #
+#   2P 2C 4E 6O 7P                                 #
+#   Output:  2                                     #
+#                                                  #
+#   5O 5P 5C 9C 9E                                 #
+#   6E 6O KE KO KC                                 #
+#   Output: E                                      #
+#                                                  #
+#   3P 6P 7O 9C JE                                 #
+#   2E 3E 4E 5E 10C                                #
+#   Output: 1                                      #
+#                                                  #
+#   2P 5O 7P 10C KC                                #
+#   3P 4C 6P 9O KE                                 #
+#   Output: E                                      #
+#                                                  #
+#   8C 9C 10O JP QE                                #
+#   3E 4E 5E 6E 7E                                 #
+#   Output: 2                                      #
+#                                                  #
+#   2O 3O 4P 5C 6O                                 #
+#   10C JC QC KC AP                                #
+#   Output: E                                      #
+#                                                  #
+####################################################
 
 # FUNÇÕES
 def quadra(cartas):
@@ -158,25 +160,66 @@ def par(cartas):
     if par == 1:
         return True
 
+def alta(cartas):
+    nova_list = []
+    for remover in cartas:
+        nova_list.append(remover[:-1]) # remover o ultimo elemento
+        
+    
+    for item in range(5):
+        if 'J' in nova_list[item]:
+            nova_list[item] = 11
+        elif 'Q' in nova_list[item]:
+            nova_list[item] = 12
+        elif 'K' in nova_list[item]:
+            nova_list[item] = 13
+        elif 'A' in nova_list[item]:
+            nova_list[item] = 14
+    nova_list[-1] = int(nova_list[-1])
+    
+    return nova_list[-1]
+
+def pontuation(x):
+    
+    soma = 0
+    # testes:
+    if quadra(x):
+        soma += 7000
+
+    elif full_house(x):
+        soma += 6000
+
+    elif flush(x):
+        soma += 5000
+
+    elif sequencia(x):
+        soma += 4000
+
+    elif trinca(x):
+        soma += 3000
+
+    elif twopares(x):
+        soma += 2000
+
+    elif par(x):
+        soma += 1000
+        
+    elif alta(x):
+        soma += alta(x)
+    
+    return soma
 
 k = int(input()) # quantidade de casos de teste
 
+# comparação dos jogadores
 for i in range(k):
     jogador1 = input().split()
-    # jogador2 = input().split()
+    jogador2 = input().split()
 
-    # testes:
-    if quadra(jogador1):
-        print('JOGADOR 1 TEM UMA QUADRA')
-    elif full_house(jogador1):
-        print('JOGADOR 1 TEM UM FULL HOUSE')
-    elif flush(jogador1):
-        print('JOGADOR 1 TEM UM FLUSH')
-    elif sequencia(jogador1):
-        print('JOGADOR 1 TEM UMA SEQUENCIA')
-    elif trinca(jogador1):
-        print('JOGADOR 1 TEM UMA TRINCA')
-    elif twopares(jogador1):
-        print('JOGADOR 1 TEM DOIS PARES')
-    elif par(jogador1):
-        print('JOGADOR 1 TEM UM PAR')
+    if pontuation(jogador1) > pontuation(jogador2):
+        print('1')
+
+    elif pontuation(jogador1) < pontuation(jogador2):
+        print('2')
+    else:
+        print('E')
