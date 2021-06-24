@@ -2,7 +2,11 @@
 # [x] Full House
 # [x] converter em valores J, Q, K, A
 # [x] problema com 10 para sequencia
-# [] trinca
+# [x] trinca
+# [x] trinca: valor que deu pau no excel: '2C', '2E', '3E', '3P', '4O'
+# [x] 2 pares
+# [x] par
+# [] carta de maior valor
 
 """
 para o problema do 10, porque ele vai pegar o primeiro item
@@ -111,31 +115,68 @@ def sequencia(cartas):
         if soma == 60:
             return True
 
-"""
-jogador1 = input().split()
-
-# Trinca: 3 cartas com o mesmo valor
 def trinca(cartas):
-    if cartas.count(int(cartas[0][0])) == 2:
+    # 2C 2E 2O 4C 5C
+    if cartas[0][0] == cartas[1][0] == cartas[2][0] and cartas[3][0] != cartas[4][0]:
+        return True
+    
+    # 2C 3E 4C 4E 4O
+    elif cartas[0][0] != cartas[1][0] and cartas[2][0] == cartas[3][0] == cartas[4][0]:
+        return True
+    
+    # 2E 3C 3O 3P 5C
+    elif (cartas[1][0] == cartas[2][0] == cartas[3][0]):
+        if cartas[0][0] != (cartas[1][0] == cartas[2][0] == cartas[3][0]):
+            if (cartas[1][0] == cartas[2][0] == cartas[3][0]) != cartas[4][0]:
+                return True
+
+def twopares(cartas):
+    # 2C 2P 3O 3E 4C
+    # 2C 4E 4O 7P 7C
+    # 3C 3E 5O 7P 7E
+    par = 0
+    for i in range(4):
+        atual = cartas[i][0]
+        proximo = cartas[i+1][0]
+        if atual == proximo:
+            par += 1
+    if par == 2:
         return True
 
-if trinca(jogador1):
-    print('Sequencia')
-"""
+def par(cartas):
+    # 2C 2E 3P 4E 5C
+    # 2C 3E 3C 4O 5P
+    # 2C 3E 4C 4E 5P
+    # 2C 3E 4P 5C 5O
+
+    par = 0
+    for i in range(4):
+        atual = cartas[i][0]
+        proximo = cartas[i+1][0]
+        if atual == proximo:
+            par += 1
+    if par == 1:
+        return True
+
 
 k = int(input()) # quantidade de casos de teste
 
 for i in range(k):
     jogador1 = input().split()
-    jogador2 = input().split()
+    # jogador2 = input().split()
 
-
-# testes:
-if quadra(jogador1):
-    print('JOGADOR 1 TEM UMA QUADRA')
-elif full_house(jogador1):
-    print('JOGADOR 1 TEM UM FULL HOUSE')
-elif flush(jogador1):
-    print('JOGADOR 1 TEM UM FLUSH')
-elif sequencia(jogador1):
-    print('JOGADOR 1 TEM UMA SEQUENCIA')
+    # testes:
+    if quadra(jogador1):
+        print('JOGADOR 1 TEM UMA QUADRA')
+    elif full_house(jogador1):
+        print('JOGADOR 1 TEM UM FULL HOUSE')
+    elif flush(jogador1):
+        print('JOGADOR 1 TEM UM FLUSH')
+    elif sequencia(jogador1):
+        print('JOGADOR 1 TEM UMA SEQUENCIA')
+    elif trinca(jogador1):
+        print('JOGADOR 1 TEM UMA TRINCA')
+    elif twopares(jogador1):
+        print('JOGADOR 1 TEM DOIS PARES')
+    elif par(jogador1):
+        print('JOGADOR 1 TEM UM PAR')
