@@ -1,0 +1,6 @@
+Page Link: https://www.thelearningpoint.net/computer-science/learning-python-programming-and-data-structures
+
+This is a set of twenty tutorials which will introduce you to Python- the basics, the applications, the built in data 
+structures, basic text processing, data science tasks, and the principles of Object Oriented Programming. These 
+tutorials will assume that you do know a little bit of programming in some language. You will learn with the help 
+of simple and well documented programs and code snippets. (NOTE: Some of these tutorials have yet to be completed)
