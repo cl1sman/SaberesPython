@@ -13,6 +13,7 @@ Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 ### 🎓 Course:
 1. CS: https://www.codecademy.com/learn/paths/computer-science
 2. CS: https://www.coursera.org/learn/ciencia-computacao-python-conceitos
+3. 100 Days of Code: The Complete Python Pro Bootcamp for 2022: https://www.udemy.com/course/100-days-of-code/
 
 ### ✏ Homework:
 1. [URI](https://www.urionlinejudge.com.br/)
