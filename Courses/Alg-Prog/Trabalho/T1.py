@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#
-# Matheus Clisman Mariano da Silva
-# Trabalho 1
-# Professor(a): Diego Padilha Rubert
-#
 
 """
     DICA:

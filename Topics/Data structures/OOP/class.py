@@ -7,7 +7,7 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last) #antes: .format(emp_1.first, ...), para ficar mais generico, e ser reutilizavel, usa self
     
-emp_1 = Employee('Matheus', 'Clisman', 50000) # passo os argumento. e faço deste um objeto
+emp_1 = Employee('Jorge', 'Ronaldo', 50000) # passo os argumento. e faço deste um objeto
 emp_2 = Employee('Test', 'User', 9000)
 
 print(emp_1.email)

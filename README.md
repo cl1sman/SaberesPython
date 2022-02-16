@@ -21,11 +21,12 @@ Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 3. [code golf](https://code.golf/)
 
 ### 🔨 Tool's:
-1. [VS CODE](https://code.visualstudio.com)
-2. [Replit](https://replit.com/)
+1. [VS CODE](https://code.visualstudio.com) (IDE)
+2. [Replit](https://replit.com/) (online IDE)
+3. [Thonny](https://thonny.org/) (Python IDE for beginners)
 
 
-### 🤖 websites:
+### 🤖 Websites:
 0. [Python](https://docs.python.org/3/tutorial)
 1. [GeeksforGeeks](https://www.geeksforgeeks.org/python-programming-language/?ref=grb)
 2. [Real Python](https://realpython.com/)
