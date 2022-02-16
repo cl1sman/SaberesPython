@@ -26,4 +26,7 @@ Codigos que tenho aprendido com ebooks, blogs, videos e etc.
 
 
 ### 🤖 websites:
+0. [Python](https://docs.python.org/3/tutorial)
 1. [GeeksforGeeks](https://www.geeksforgeeks.org/python-programming-language/?ref=grb)
+2. [Real Python](https://realpython.com/)
+3. [W3Schools](https://www.w3schools.com/python/)
