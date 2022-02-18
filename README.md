@@ -1,6 +1,6 @@
 # 🚀 Aprendendo Python
 
-Este repositorio é meu bloco de notas, trazendo o tenho aprendido com ebooks, blogs, videos, e etc.
+Este repositorio é meu bloco de notas, trazendo o que tenho aprendido com ebooks, blogs, videos, e etc.
 Tenho como principal objetivo a partilha de conhecimento. Permitindo que aquele que aqui estiver possa seguir um step-by-step.
 
 
@@ -23,7 +23,7 @@ Tenho como principal objetivo a partilha de conhecimento. Permitindo que aquele 
 3. [code golf](https://code.golf/)
 
 ### 🔨 Tool's:
-1. [VS CODE](https://code.visualstudio.com):IDE
+1. [VS CODE](https://code.visualstudio.com): IDE
 2. [Replit](https://replit.com/): online IDE
 3. [Thonny](https://thonny.org/): Python IDE for beginners
 4. [Flowchart Maker & Online Diagram Software](https://app.diagrams.net/): diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
