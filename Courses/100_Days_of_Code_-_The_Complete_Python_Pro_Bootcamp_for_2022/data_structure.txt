@@ -1,0 +1,8 @@
+Data Structure
+
+Docs Python, Data Structure: https://docs.python.org/3/tutorial/datastructures.html
+
+Basicly is just a way of ORGANIZING and STORING data.
+
+Example storing data (simplily mode: varible)
+x = 1
