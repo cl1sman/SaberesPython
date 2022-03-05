@@ -1,0 +1,2 @@
+Move block of code -> or <-
+Ctrl + [ or Ctrl + ]
