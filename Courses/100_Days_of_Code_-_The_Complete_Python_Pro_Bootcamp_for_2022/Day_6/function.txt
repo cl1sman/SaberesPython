@@ -1,0 +1,9 @@
+https://docs.python.org/3/library/functions.html
+
+basic:
+name of function followed by a set of parentheses
+
+example()
+
+To practice
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=%2Fworlds%2Fmenus%2Fselect_collection_en.json&name=Alone&url=%2Fworlds%2Ftutorial_en%2Falone.json
