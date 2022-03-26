@@ -37,5 +37,5 @@ Tenho como principal objetivo a partilha de conhecimento. Permitindo que aquele 
 
 ### 🧠 Topics:
 0. **OOP**
-  * [Python Object Oriented Programming](https://www.programiz.com/python-programming/object-oriented-programming)
-  * [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
+    * [Python Object Oriented Programming](https://www.programiz.com/python-programming/object-oriented-programming)
+    * [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
