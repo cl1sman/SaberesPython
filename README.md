@@ -4,7 +4,7 @@ Este repositorio é meu bloco de notas, trazendo o que tenho aprendido com ebook
 Tenho como principal objetivo a partilha de conhecimento. Permitindo que aquele que aqui estiver possa seguir um step-by-step.
 
 
-## Links: 
+## Links:
 
 ### 📖 Ebook:
 1. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
@@ -34,3 +34,8 @@ Tenho como principal objetivo a partilha de conhecimento. Permitindo que aquele 
 1. [GeeksforGeeks](https://www.geeksforgeeks.org/python-programming-language/?ref=grb)
 2. [Real Python](https://realpython.com/)
 3. [W3Schools](https://www.w3schools.com/python/)
+
+### 🧠 Topics:
+0. **OOP**
+  * [Python Object Oriented Programming](https://www.programiz.com/python-programming/object-oriented-programming)
+  * [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
