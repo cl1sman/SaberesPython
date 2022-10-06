@@ -5,7 +5,7 @@ text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
-def encrypt(text, shift):
+def encrypt(plain_text, shift_amount):
 
     #TODO-2: Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.  
     #e.g. 
@@ -18,10 +18,17 @@ def encrypt(text, shift):
     #https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
 
     ##🐛Bug alert: What happens if you try to encode the word 'civilization'?🐛
-    chipher_text = 0
-    for i in text:
-        cipher_text += alphabet[alphabet.index(i) + shift]
+    cipher_text = ""
+    for i in plain_text:
+        indexOfAlphabet = alphabet.index(i)
+        if indexOfAlphabet + shift_amount > 25:
+            cipher_text += alphabet[(indexOfAlphabet + shift_amount)%26]
+            # alphabet tem 26 letras. Tratando de indice, temos 25 (0 - 25).
+            # Desta forma, tomo o indice da letra que entrou, mais o shift. Se for maior que meu index, pego o resto da divisao por 26. Pois o resto da divisão por 26 é o indice da letra.
+        else:
+            cipher_text += alphabet[indexOfAlphabet + shift_amount]
+    return print(f"The encoded text is {cipher_text}")
 
-#TODO-3: Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message.
+#TODO-3: Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message. 
 
 encrypt(text, shift)
