@@ -10,9 +10,10 @@ if __name__ == '__main__':
         name, *line = input().split()
         scores = list(map(float, line))
         student_marks[name] = scores
+        # aqui tenho um dicionario com um valor que é uma lista
     query_name = input()
     add = 0
-    for valuesOfKey in student_marks[query_name]:
+    for valuesOfKey in student_marks[query_name]: # aqui tomo o dicionario informando a chave e tomo os valores da lista (que está dentro do dicionario)
         add += valuesOfKey
     average = add / len(student_marks[query_name])
     print(f'{average:.2f}')
